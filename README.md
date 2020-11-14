@@ -5,11 +5,14 @@ Here, we implemented a image-based interpretability of adversarial examples, whi
 
 ![Alt text](https://user-images.githubusercontent.com/20013955/99145761-4d6ab000-26ac-11eb-82c2-bf9dadac980f.png)
 
-Type I attack: Generate an adversarial example that is different to the original one in the view of the attacker
-'''
-𝐺𝑒𝑛𝑒𝑟𝑎𝑡𝑒 𝑥^′ for x from a supervised varioational auto-encoder (VAE)
+Type I attack: Generate an adversarial example that is different to the original one in the view of the attacker 
+
+```
+𝐺𝑒𝑛𝑒𝑟𝑎𝑡𝑒 adversarial example 𝑥^′ for x from a supervised varioational auto-encoder (VAE)
+
 𝑠.𝑡.  𝑓_1 (𝑥^′ )  = 𝑓_1 (𝑥), 𝑑(𝑔_2(𝑥), 𝑔_2 (𝑥^′)) ≫ 𝜀 
-'''
+```
+
 Type II attack: Generating false negatives examples
 
 
