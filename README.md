@@ -7,11 +7,11 @@ Here, we implemented a image-based interpretability of adversarial examples, whi
 
 Type I attack: Generate an adversarial example that is different to the original one in the view of the attacker 
 
-<code>
-𝐺𝑒𝑛𝑒𝑟𝑎𝑡𝑒 adversarial example 𝑥^′ for x from a supervised varioational auto-encoder (G)
+```
+**Generate adversarial example 𝑥^′ for x from a supervised varioational auto-encoder (G)**
 
 x' = G(x'), 𝑠.𝑡.  𝑓<sub>1</sub> (𝑥′)  = 𝑓<sub>1</sub> (𝑥), 𝑑(𝑔<sub>2</sub>, 𝑔<sub>2</sub> (𝑥′)) ≫ 𝜀 
-</code>
+```
 
 Type II attack: Generating false negatives examples
 
